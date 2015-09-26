@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <center>
+    <TableView prefHeight="200.0" prefWidth="200.0" editable="true">
+      <columns>
+        <TableColumn editable="true" maxWidth="5000.0" minWidth="10.0" prefWidth="302.0" resizable="true" sortable="false" text="Data type" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="297.0" text="Value" editable="true"/>
+      </columns>
+    </TableView>
+  </center>
+</BorderPane>

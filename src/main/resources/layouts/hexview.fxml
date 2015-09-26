@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+
+<TableView id="hextable" maxWidth="5700.0" prefHeight="400.0" prefWidth="570.0">
+    <columns>
+        <TableColumn id="addresscol" maxWidth="5000.0" minWidth="10.0" prefWidth="75.0"
+                     text=" ">
+            <cellValueFactory>
+                <PropertyValueFactory property="address"/>
+            </cellValueFactory>
+        </TableColumn>
+
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="0">
+            <cellValueFactory>
+                <PropertyValueFactory property="b0"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="1">
+            <cellValueFactory>
+                <PropertyValueFactory property="b1"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="2">
+            <cellValueFactory>
+                <PropertyValueFactory property="b2"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="3">
+            <cellValueFactory>
+                <PropertyValueFactory property="b3"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="4">
+            <cellValueFactory>
+                <PropertyValueFactory property="b4"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="5">
+            <cellValueFactory>
+                <PropertyValueFactory property="b5"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="6">
+            <cellValueFactory>
+                <PropertyValueFactory property="b6"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="7">
+            <cellValueFactory>
+                <PropertyValueFactory property="b7"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="8">
+            <cellValueFactory>
+                <PropertyValueFactory property="b8"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="9">
+            <cellValueFactory>
+                <PropertyValueFactory property="b9"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="A">
+            <cellValueFactory>
+                <PropertyValueFactory property="bA"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="B">
+            <cellValueFactory>
+                <PropertyValueFactory property="bB"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="C">
+            <cellValueFactory>
+                <PropertyValueFactory property="bC"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="D">
+            <cellValueFactory>
+                <PropertyValueFactory property="bD"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="E">
+            <cellValueFactory>
+                <PropertyValueFactory property="bE"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="F">
+            <cellValueFactory>
+                <PropertyValueFactory property="bF"/>
+            </cellValueFactory>
+        </TableColumn>
+    </columns>
+</TableView>
