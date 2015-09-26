@@ -7,11 +7,9 @@ import javafx.beans.property.StringProperty;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.ContextMenu;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.SelectionMode;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.FileInputStream;
@@ -101,10 +99,13 @@ public class Main extends Application {
 
 	@Override public void start(Stage stage) throws Exception {
 		setUserAgentStylesheet(STYLESHEET_MODENA);
-		Parent root = FXMLLoader.load(getClass().getResource("hexpanel.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("hexpanel2.fxml"));
 		stage.getIcons().add(new Image("/resources/icon-48.png"));
 		stage.getIcons().add(new Image("/resources/icon-32.png"));
 		stage.getIcons().add(new Image("/resources/icon-16.png"));
+
+		Button btnOpen = (Button) root.lookup("#menubtn-open");
+		//btnOpen.setGraphic(new ImageView("/resources/open-file.png"));
 
 		TableView<DataRow> table = (TableView<DataRow>) root.lookup("#hextable");
 		table.setContextMenu(new ContextMenu(new MenuItem("Copy"), new MenuItem("Cut"), new MenuItem("Delete")));
